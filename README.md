@@ -1,13 +1,14 @@
 # CBS Vegetable Yield Analysis
 
 ## Summary
-This project analyzes CBS Open Data to identify which vegetables had the highest yield in the Netherlands between 2020 and 2024. Yield was calculated as the harvest divided by cultivation area and expressed in ton per hectare (ton/ha). Results were visualized as a line chart and a final figure was saved.
+This project analyzes CBS Open Data to identify which vegetables had the highest yield in the Netherlands between 2020 and 2024. Yield was calculated as the harvest produced divided by cultivation area and expressed in ton per hectare (ton/ha). Results were visualized as a line chart and a final figure was saved.
 
 ## Question
-Which vegetables had the highest yield (ton/ha) in the Netherlands between 2020 and 2024?
+Which vegetables had the highest yield in the Netherlands over the past five years?
 
 ## Main insight
-Champignons had by far the highest yield among Dutch vegetables between 2020 and 2024, but their yield declined over time. In contrast, the other top-yield vegetables remained much lower and relatively stable. This suggests that the most productive crop is not necessarily the most stable over time.
+Champignons had by far the highest yield among Dutch vegetables between 2020 and 2024, but their yield declined over time. In contrast, the other top-yield vegetables remained much lower and relatively stable. This suggests that yield per hectare is a useful productivity metric, but it should not be considered in isolation. Other factors (value produced, resources consumed) also matter when comparing agricultural performance.
+
 
 ## Data source
 The data comes from CBS Open Data, dataset 37738:  
@@ -63,5 +64,5 @@ It also saves the figure as:
 ## Notes / limitations
 - The analysis focuses only on the years 2020–2024.
 - Vegetables were ranked based on average yield over this period.
-- Yield per hectare is useful for comparing productivity, but it does not capture other factors such as economic value, production costs, or sustainability.
+- Yield per hectare is useful for comparing productivity, but it does not capture other factors such as value produced and resources consumed.
 - A broken y-axis was used because champignons have much higher yield values than the other vegetables, and a standard line chart compresses the lower three trends.
