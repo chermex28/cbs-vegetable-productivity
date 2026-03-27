@@ -1,4 +1,4 @@
-# CWhich vegetables had the highest yield in the Netherlands over the past five years?
+# Which vegetables had the highest yield in the Netherlands over the past five years?
 
 ## Summary
 This project analyzes CBS Open Data to identify which vegetables had the highest yield in the Netherlands between 2020 and 2024. Yield was calculated as harvest produced divided by cultivation area and expressed in ton per hectare (ton/ha). The analysis shows that champignons had by far the highest yield among Dutch vegetables in this period, but their yield declined over time, while the other top-yield vegetables remained much lower and relatively stable. This suggests that the most productive crop is not necessarily the most stable over time.
