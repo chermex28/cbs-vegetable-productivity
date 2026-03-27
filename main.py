@@ -82,6 +82,5 @@ ax2.grid(True, alpha=0.3)
 # Set a shared y-axis title
 fig.text(0.05,0.5,"Yield (ton/ha)", rotation=90, va="center", ha="center", fontsize=14)
 
-plt.tight_layout()
+# Saving final figure
 plt.savefig("Figure_vegetables.png", dpi=300, bbox_inches="tight")
-plt.show()
